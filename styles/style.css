@@ -1,0 +1,35 @@
+body {
+    font-family: 'Nerko One', cursive;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.content {
+    display: flex; /* Используем Flexbox для размещения текста и изображения в одной строке */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    gap: 20px; /* Расстояние между текстом и изображением */
+}
+
+.gpu-image {
+    max-width: 200px; /* Устанавливаем максимальную ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+}
+.content2 {
+    display: flex; /* Используем Flexbox для размещения текста и изображения в одной строке */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    gap: 20px; /* Расстояние между текстом и изображением */
+}
